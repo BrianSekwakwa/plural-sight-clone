@@ -8,5 +8,8 @@
   },
   "homepage": "https://briansekwakwa.github.io/plural-sight-clone",
   "author": "Brian Sekwakwa",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
