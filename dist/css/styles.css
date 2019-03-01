@@ -231,3 +231,55 @@ h6 {
     padding-top: 1rem;
   }
 }
+
+@media (max-height: 700px) {
+  /* Sign in */
+  #signin form {
+    padding-bottom: 0.8rem;
+  }
+
+  #signin .logo {
+    margin-bottom: 2vh;
+  }
+
+  #signin .text-input {
+    margin-bottom: 1rem;
+  }
+
+  #signin .links a {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Footer */
+  #main-footer {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-height: 580px) {
+  /* Sign in */
+  #signin form {
+    padding-bottom: 0.1rem;
+  }
+
+  #signin .logo {
+    margin-top: 2rem;
+    margin-bottom: 1vh;
+  }
+
+  #signin .text-input {
+    margin-bottom: 0.5rem;
+  }
+
+  #signin .links a {
+    margin-bottom: 0.7rem;
+  }
+
+  #signin .secondary-btn {
+    margin-bottom: 1rem;
+  }
+
+  #main-footer {
+    display: none;
+  }
+}
